@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="PERSONAL INFO"
+            android:visible="false" />
+        <item
+            android:id="@+id/per_info"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="PERSONAL INFO" />
+        <!--            android:onClick="test2"-->
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="CART" />
+        <item
+            android:id="@+id/sign_out"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:onClick="test"
+            android:title="SIGN OUT" />
+    </group>
+</menu>

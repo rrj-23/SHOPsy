@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.rrj.major_project_teachnook.ui.home.HomeFragment"
+        android:label="HOME"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.rrj.major_project_teachnook.ui.gallery.GalleryFragment"
+        android:label="CART"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.rrj.major_project_teachnook.ui.slideshow.SlideshowFragment"
+        android:label="PERSONAL INFO"
+        tools:layout="@layout/fragment_slideshow" />
+
+</navigation>
